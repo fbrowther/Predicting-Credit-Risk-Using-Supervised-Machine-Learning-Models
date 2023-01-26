@@ -3,20 +3,21 @@
 # Predicting Credit Risk Employing Supervised Machine Learning Models
 
 ## Brief Introduction -
-Lending services companies allow individual investors to partially fund personal loans as well as buy and sell notes backing the loans on a secondary market. Data on previous loan applications (both Approved and Rejected) is available. This data will be used to build Machine Learning Models which predicts the risk level of loans. 
+Lending services companies allow individual investors to partially fund personal loans as well as buy and sell notes backing the loans on a secondary market. Data on previous loan applications (both Approved and Rejected) was available. This data can be used to build Machine Learning Models which predicts the credit_risk for approving future loans. 
 
-The archieved dataset had information on loan_size,	interest_rate,	borrower_income,	debt_to_income,	num_of_accounts,	derogatory_marks,	total_debt, loan_status. This a binary classification ML problem with loan_status either likely to be 0 (not approved) or 1 (approved).
+The archieved dataset available for this project has information on loan_size, interest_rate, borrower_income, debt_to_income, num_of_accounts,	derogatory_marks, total_debt, and loan_status. This a binary classification ML problem with loan_status either likely to be 0 (not approved) or 1 (approved).
 
 ## Aims and Objective -
-The loan_status of the application will be predicted employing Logistic Regression and Random Forest Classifier.
+The loan_status of the application will be predicted employing both Logistic Regression and Random Forest Classifier.
 
-      (1) Performance of the models will be asessed with or without a preprocessing step (Logistic Regression & Random Forest Classifier).
+      (1) Performance of the models will be asessed with or without a preprocessing step included.
      
       (2) Main performance metrics of ML models such as Recall, Precision, Accuracy, and f1-score will be determined and compared.
   
-      (3) Any fine tuning in the performace of the models will be performed with Feature Selection and Hyperparameter tuning step.
+      (3) Any fine tuning that is needed to improve the performace of the models will be carried out e.g., Feature Selection & Hyperparameter Tuning.
   
 ## Specific Libraries and modules employed - 
+      
       Scikit-Learn ML Library- 
   
       (a) Linear model - LogisticRegression, 
