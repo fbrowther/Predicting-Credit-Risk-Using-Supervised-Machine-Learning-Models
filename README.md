@@ -74,3 +74,11 @@ If this was a model with an accuracy score much lower than 0.99, then there is a
             
 
 ![Credit](https://github.com/fbrowther/Supervised_ML_Models-Predicting_Credit_Risk/blob/main/Screenshots/Credit.jpeg)
+
+## Limitations and discussions-
+
+(1) The dataset used for this modeling was imbalanced (the ratio being 1:30; 2500 for Approved to 75036 Rejected). Hence, the distribution of output classes was not equal. 
+    
+(2) When working with an imbalanced classification problem such as this one, the minority class is typically of the most interest. 
+
+(3) In order to rebalance the class districbution in the dataset, random resampling technique can be used. The models are already performing well and therefore random resampling was not attempted. However, closer monitoring of the model performance on newer data should be used to assess if random resampling is necessary.
