@@ -30,6 +30,13 @@ Employing Logistic Regression model and Random Forest Classifier, the loan_statu
       (e) Metrics - classification_report, precision_score, recall_score,
       
       (f) Feature selction - SelectFromModel
+      
+## Linear Regression v/s Random Forest Classifier
+## Linear Regression v/s Random Forest Classifier with Preprocessing of Data
+## Feature Selection and evaluation of Random Forest Classifier
+## Hyperparameter Tuning and comparison between the two models.
+
+
 
 
 
