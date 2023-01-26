@@ -32,20 +32,19 @@ Employing Logistic Regression model and Random Forest Classifier, the loan_statu
       (f) Feature selction - SelectFromModel
 
 ## Project Performance -
-## Linear Regression v/s Random Forest Classifier
-![LR](https://github.com/fbrowther/Supervised_ML_Models-Predicting_Credit_Risk/blob/main/Screenshots/LR-unScaled.png)
+## Linear Regression with or without Preprocessing -
+![LR](https://github.com/fbrowther/Supervised_ML_Models-Predicting_Credit_Risk/blob/main/Screenshots/LR.png)
 
-![RFC](https://github.com/fbrowther/Supervised_ML_Models-Predicting_Credit_Risk/blob/main/Screenshots/RFC-unScaled.png)
 
-## Linear Regression v/s Random Forest Classifier with Preprocessing of Data
-![LR](https://github.com/fbrowther/Supervised_ML_Models-Predicting_Credit_Risk/blob/main/Screenshots/LR-Scaled.png)
-![RFC](https://github.com/fbrowther/Supervised_ML_Models-Predicting_Credit_Risk/blob/main/Screenshots/RFC-Scaled.png)
+## Random Forest Classifier with or without Preprocessing -
+![RFC](https://github.com/fbrowther/Supervised_ML_Models-Predicting_Credit_Risk/blob/main/Screenshots/RFC.png)
+
 
 ## Feature Selection and evaluation of Random Forest Classifier
 ![FS-RFC](https://github.com/fbrowther/Supervised_ML_Models-Predicting_Credit_Risk/blob/main/Screenshots/Feature%20Selection%20-%20scores.png)
+
 ## Hyperparameter Tuning and comparison between the two models.
-![H-LR](https://github.com/fbrowther/Supervised_ML_Models-Predicting_Credit_Risk/blob/main/Screenshots/Hyperparameter-LR.png)
-![H-RFC](https://github.com/fbrowther/Supervised_ML_Models-Predicting_Credit_Risk/blob/main/Screenshots/Hyperparameter-RFC.png)
+![LR v/s RFC](https://github.com/fbrowther/Supervised_ML_Models-Predicting_Credit_Risk/blob/main/Screenshots/Hyperparameter.png)
 
 
 
