@@ -55,7 +55,7 @@ While developing an accurate ML model, it is essential that features that are in
 
 Eventhough, these model (demonstarted above) have already performed so well with an accuracy score nearing a perfect score; further refinement of this model could potentially improve Precision, Recall, f1-scores. With this in mind, feature imortance was attempted using SelectFromModel. Among the input features, interest_rate, borrower_income, and debt_to_income were identified to contribute to the overall predictability of the model. 
 
-further refinement of the model was carried out using only these three selected features. This didnot improve the score of a already well performing model. However, this refinement process is important when a model is faced with hundreds of features, many of which do not contribute to the overall performance.  
+Further refinement of the model was carried out using these three selected features. This didnot improve the score of a already well performing model. However, this refinement process is important when a model is faced with hundreds of features, many of which do not contribute to the overall performance.  
 
 ## Hyperparameter Tuning and comparison between the two models (code in Bonus file)
 ![LR v/s RFC](https://github.com/fbrowther/Supervised_ML_Models-Predicting_Credit_Risk/blob/main/Screenshots/Hyperparameter.png)
