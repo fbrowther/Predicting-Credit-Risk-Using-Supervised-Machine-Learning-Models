@@ -1,4 +1,5 @@
 
+![FS-RFC](https://github.com/fbrowther/Supervised_ML_Models-Predicting_Credit_Risk/blob/main/Screenshots/Feature%20Selection%20-%20scores.png)
 # Predicting Credit Risk using Supervised Machine Learning Model
 
 ## Brief Introduction -
