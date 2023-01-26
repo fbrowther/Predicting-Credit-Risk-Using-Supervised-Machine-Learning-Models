@@ -64,7 +64,11 @@ Having recognized that there is still room for improvement with Precision, Recal
 
 If this was a model with an accuracy score much lower than 0.99, then there is a high likelihood of this tuning step improving even the accuracy score.
 
-
+## Summary and conclusions -
+            (1) Linear regression model with Preprocessing steps (StandardScaler, and GridsearchCV) and Random Forest Classifier with Feature Selection
+            were the top performing models that were developed a part of this Supervised ML Project.
+            (2) These two models had near perfect score for Recall, f1-score and Accuracy.
+            (3) These models were able to predict credit risk of current loans with 0.99 accuracy.
  
 
 
