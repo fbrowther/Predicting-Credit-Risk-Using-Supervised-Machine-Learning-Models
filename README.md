@@ -33,7 +33,7 @@ Employing Logistic Regression model and Random Forest Classifier, the loan_statu
 
 ## Project Performance -
 ## Linear Regression with or without Preprocessing -
-![LR](https://github.com/fbrowther/Supervised_ML_Models-Predicting_Credit_Risk/blob/main/Screenshots/LR.png)
+![LR]()
 
 
 ## Random Forest Classifier with or without Preprocessing -
