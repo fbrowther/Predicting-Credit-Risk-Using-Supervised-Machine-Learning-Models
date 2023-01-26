@@ -53,11 +53,11 @@ Unlike Linear Regression, Random Forest Classifier donot rely on the linear rela
 ## Feature Selection and evaluation of Random Forest Classifier
 ![FS-RFC](https://github.com/fbrowther/Supervised_ML_Models-Predicting_Credit_Risk/blob/main/Screenshots/Feature%20Selection%20-%20scores.png)
 
-While developing an accurate ML model, it is essential that features that are included in the model, contribute to the overall performance of the model and its accurate prediction. 
+While developing a ML model, it is essential that features that are included in the model, contribute to the overall performance of the model and its accurate prediction. 
 
 Eventhough, these model (demonstarted above) have already performed well with an accuracy score nearly perfect; any further refinement of this model could potentially improve Precision, Recall, f1-scores. With this in mind, feature imortance was attempted using SelectFromModel. Among the input features, interest_rate, borrower_income, and debt_to_income were identified to contribute the most to the overall predictability of the model.
 
-Further refinement of the model was carried out using these three selected features. This didnot improve the score of a already well performing model. However, this refinement process is of utmost importance when a model is faced with hundreds of features, many of which do not contribute to the overall performance and generate only noise for the model.  
+Further refinement of the model was carried out using these three selected features. This didnot improve the score of an already well performing model. However, this refinement process is of utmost importance when a model is faced with hundreds of features, many of which do not contribute to the overall performance and generate only noise for the model.  
 
 ## Hyperparameter Tuning and comparison between the two models (code in Bonus file)
 ![LR v/s RFC](https://github.com/fbrowther/Supervised_ML_Models-Predicting_Credit_Risk/blob/main/Screenshots/Hyperparameter.png)
