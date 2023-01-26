@@ -8,7 +8,7 @@ Lending services companies allow individual investors to partially fund personal
 The archieved dataset available for this project has information on loan_size, interest_rate, borrower_income, debt_to_income, num_of_accounts,	derogatory_marks, total_debt, and loan_status. This a binary classification ML problem with loan_status either likely to be 0 (not approved) or 1 (approved).
 
 ## Aims and Objective -
-The loan_status of the application will be predicted employing both Logistic Regression and Random Forest Classifier.
+The loan_status of the applications will be predicted employing both Logistic Regression and Random Forest Classifier.
 
       (1) Performance of the models will be asessed with or without a preprocessing step included.
      
