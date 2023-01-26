@@ -53,8 +53,7 @@ Random Forest Classifier donot rely on the linear relationship of feature and ou
 
 While developing an accurate ML model, it is essential that features that are included in the model development contribute to the overall performance of the model and its accurate prediction. 
 
-Eventhough, these model (demonstarted above) have already performed so well with an accuracy score nearing a perfect score; further refinement of this model could potentially improve Precision, Recall, f1-scores. With this in mind, feature imortance was determined using SelectFromModel. 
-
+Eventhough, these model (demonstarted above) have already performed so well with an accuracy score nearing a perfect score; further refinement of this model could potentially improve Precision, Recall, f1-scores. With this in mind, feature imortance was determined using SelectFromModel. Among the input features, interest_rate, borrower_income, and debt_to_income was identified to contribute to the overall predictability of the model. Eventhough 
 
 ## Hyperparameter Tuning and comparison between the two models.
 ![LR v/s RFC](https://github.com/fbrowther/Supervised_ML_Models-Predicting_Credit_Risk/blob/main/Screenshots/Hyperparameter.png)
