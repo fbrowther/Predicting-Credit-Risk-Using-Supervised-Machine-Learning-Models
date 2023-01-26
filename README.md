@@ -36,21 +36,31 @@ Employing Logistic Regression model and Random Forest Classifier, the loan_statu
 ![LR](https://github.com/fbrowther/Supervised_ML_Models-Predicting_Credit_Risk/blob/main/Screenshots/new_LR.png)
 
 
-Linear Regression already performed with a accuracy scores of 0.9921. However, with the scaling of the data it improved even further to 0.9941. If this was a model with a score of say., 0.7823, then there is a high likelihood of this score increasing further, with a preprocessing step (MinMaxScaler or StandardScaler) included.
-This increase was also reflected in further improvement of Recall and f1-scores.
+Linear Regression performed with a accuracy scores of 0.9921. However, with the scaling of the data it improved even further to 0.9941. If this was a model with a score of say., 0.7823, then there is a high likelihood of this score increasing further, with a preprocessing step such as MinMaxScaler or StandardScaler included.
+This increase in accuracy score was also reflected in Recall and f1-scores' further improvement.
 
 ## Random Forest Classifier with or without Preprocessing -
 ![RFC](https://github.com/fbrowther/Supervised_ML_Models-Predicting_Credit_Risk/blob/main/Screenshots/RFC.png)
 
+Similar to Linear Regression, Random Forest Classifier also performed really well; with an accuracy score of over 0.99.
+
+Unlike Linear Regression which relies on the linear relationship between input features and output variables; the standardization/scaling remain an important step to improving its performance when the feature values are not scaled.
+
+Random Forest Classifier donot rely on the linear relationship of feature and output variable values, and therefore there was little to no improvement in the performance of this model with a scaling step included. 
 
 ## Feature Selection and evaluation of Random Forest Classifier
 ![FS-RFC](https://github.com/fbrowther/Supervised_ML_Models-Predicting_Credit_Risk/blob/main/Screenshots/Feature%20Selection%20-%20scores.png)
+
+While developing an accurate ML model, it is essential that features that are included in the model development contribute to the overall performance of the model and its accurate prediction. 
+
+Eventhough, these model (demonstarted above) have already performed so well with an accuracy score nearing a perfect score; further refinement of this model could potentially improve Precision, Recall, f1-scores. With this in mind, feature imortance was determined using SelectFromModel. 
+
 
 ## Hyperparameter Tuning and comparison between the two models.
 ![LR v/s RFC](https://github.com/fbrowther/Supervised_ML_Models-Predicting_Credit_Risk/blob/main/Screenshots/Hyperparameter.png)
 
 
-
+If this was a model with an accuracy score lower than 0.99, then there is a high likelihood of this score increasing further, with a preprocessing step such as MinMaxScaler or StandardScaler included.
 
 
  
