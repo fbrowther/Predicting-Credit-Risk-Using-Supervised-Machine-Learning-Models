@@ -3,9 +3,9 @@
 # Predicting Credit Risk Employing Supervised Machine Learning Models
 
 ## Brief Introduction -
-Lending services companies allow individual investors to partially fund personal loans as well as buy and sell notes backing the loans on a secondary market. Data on previous loan applications (both Approved and Rejected) will be used to build Machine Learning Models to classify the risk level of given loans. 
+Lending services companies allow individual investors to partially fund personal loans as well as buy and sell notes backing the loans on a secondary market. Data on previous loan applications (both Approved and Rejected) is available. This data will be used to build Machine Learning Models which predicts the risk level of loans. 
 
-The archieved dataset had information on loan_size,	interest_rate,	borrower_income,	debt_to_income,	num_of_accounts,	derogatory_marks,	total_debt,	loan_status. This a binary classification ML problem with loan_status either likely to be 0 (not approved) or 1 (approved).
+The archieved dataset had information on loan_size,	interest_rate,	borrower_income,	debt_to_income,	num_of_accounts,	derogatory_marks,	total_debt, loan_status. This a binary classification ML problem with loan_status either likely to be 0 (not approved) or 1 (approved).
 
 ## Aims and Objective -
 Employing Logistic Regression model and Random Forest Classifier, the loan_status of the appliaction will be predicted. 
