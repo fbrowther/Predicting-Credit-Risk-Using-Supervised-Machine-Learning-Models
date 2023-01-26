@@ -17,7 +17,7 @@ Employing Logistic Regression model and Random Forest Classifier, the loan_statu
       (3) Any fine tuning in the performace of the models will be performed with Feature Selection and Hyperparameter tuning step.
   
 ## Specific Libraries and modules employed - 
-  (1) Scikit-Learn - 
+      Scikit-Learn ML Library- 
   
       (a) Linear model - LogisticRegression, 
       
