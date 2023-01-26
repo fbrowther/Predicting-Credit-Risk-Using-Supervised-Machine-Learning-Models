@@ -60,10 +60,9 @@ Further refinement of the model was carried out using these three selected featu
 ## Hyperparameter Tuning and comparison between the two models (code in Bonus file)
 ![LR v/s RFC](https://github.com/fbrowther/Supervised_ML_Models-Predicting_Credit_Risk/blob/main/Screenshots/Hyperparameter.png)
 
-Having recognized there is still room for improvement with Precision, Recall, f1-scores, hyperparameter tuning was carried out using GridSearchCV. This improved the Recall and f1-score to near perfect scores. 
+Having recognized that there is still room for improvement with Precision, Recall, f1-scores, hyperparameter tuning was carried out using GridSearchCV. This improved the Recall and f1-score to near perfect scores. 
 
-If this was a model with an accuracy score much lower than 0.99, then there is a high likelihood of this score also increasing further, with hyperparameter tuning step included.
-
+If this was a model with an accuracy score much lower than 0.99, then there is a high likelihood of this tuning step improving even the accuracy score.
 
 
  
