@@ -1,5 +1,5 @@
 
-![FS-RFC](https://github.com/fbrowther/Supervised_ML_Models-Predicting_Credit_Risk/blob/main/Screenshots/creditrisk.jpeg)
+![CreditRisk](https://github.com/fbrowther/Supervised_ML_Models-Predicting_Credit_Risk/blob/main/Screenshots/creditrisk.jpeg)
 # Predicting Credit Risk using Supervised Machine Learning Model
 
 ## Brief Introduction -
@@ -70,6 +70,9 @@ If this was a model with an accuracy score much lower than 0.99, then there is a
             were the top performing models that were developed a part of this Supervised ML Project.
             (2) These two models had near perfect score for Recall, f1-score and Accuracy.
             (3) These models were able to predict credit risk of current loans with 0.99 accuracy.
+            
+
+![Credit](https://github.com/fbrowther/Supervised_ML_Models-Predicting_Credit_Risk/blob/main/Screenshots/Credit.jpeg)
  
 
 
