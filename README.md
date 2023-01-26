@@ -1,6 +1,6 @@
 
 ![CreditRisk](https://github.com/fbrowther/Supervised_ML_Models-Predicting_Credit_Risk/blob/main/Screenshots/creditrisk.jpeg)
-# Predicting Credit Risk using Supervised Machine Learning Model
+# Predicting Credit Risk Employing Supervised Machine Learning Models
 
 ## Brief Introduction -
 Lending services companies allow individual investors to partially fund personal loans as well as buy and sell notes backing the loans on a secondary market. Data on previous loan applications (both approved and Rejected) will be used to build Machine Learning Models to classify the risk level of given loans. 
