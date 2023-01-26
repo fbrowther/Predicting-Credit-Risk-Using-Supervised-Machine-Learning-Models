@@ -18,11 +18,17 @@ Employing Logistic Regression model and Random Forest Classifier, the loan_statu
   
 ## Specific Libraries and modules employed - 
   (1) Scikit-Learn - 
+  
       (a) Linear model - LogisticRegression, 
+      
       (b) Ensemble - RandomForestClassifier,
+      
       (c) model_selection - train_test_split & GridSearchCV,
+      
       (d) Preprocessing - StandardScaler,
+      
       (e) Metrics - classification_report, precision_score, recall_score,
+      
       (f) Feature selction - SelectFromModel
 
 
