@@ -14,7 +14,7 @@ The loan_status of the application will be predicted employing both Logistic Reg
      
       (2) Main performance metrics of ML models such as Recall, Precision, Accuracy, and f1-score will be determined and compared.
   
-      (3) Any fine tuning that is needed to improve the performace of the models will be carried out e.g., Feature Selection & Hyperparameter Tuning.
+      (3) Any fine tuning that is needed to improve the performace of the models will be carried out using Feature Selection & Hyperparameter Tuning.
   
 ## Specific Libraries and modules employed - 
       
@@ -37,26 +37,27 @@ The loan_status of the application will be predicted employing both Logistic Reg
 ![LR](https://github.com/fbrowther/Supervised_ML_Models-Predicting_Credit_Risk/blob/main/Screenshots/new_LR.png)
 
 
-Linear Regression performed with a accuracy scores of 0.9921. However, with the scaling of the data it improved even further to 0.9941. If this was a model with a score of say., 0.7823, then there is a high likelihood of this score increasing further, with a preprocessing step such as MinMaxScaler or StandardScaler included.
-This increase in accuracy score was also reflected in Recall and f1-scores' further improvement.
+Linear Regression model performed well with an accuracy scores of 0.9921. However, with the scaling of the data it improved even further to 0.9941. Inclusion of the preprocessing step also improved Recall and f1-scores' scores of the model.
+
+If this was a model with a score of say., 0.7823, then there is a high likelihood of this score increasing further, with a preprocessing step included (such as MinMaxScaler or StandardScaler).
+
+The reasons for this improvement are mainly due to - Linear Regression relying on the linear relationship between input features and output variables; any feature variables whose values are not scaled might not be able to fit well in the model and thus penalize the model.
 
 ## Random Forest Classifier with or without Preprocessing -
 ![RFC](https://github.com/fbrowther/Supervised_ML_Models-Predicting_Credit_Risk/blob/main/Screenshots/RFC.png)
 
 Similar to Linear Regression, Random Forest Classifier also performed really well; with an accuracy score of over 0.99.
 
-Unlike Linear Regression which relies on the linear relationship between input features and output variables; the standardization/scaling remain an important step to improving its performance when the feature values are not scaled.
-
-Random Forest Classifier donot rely on the linear relationship of feature and output variable values, and therefore there was little to no improvement in the performance of this model with a scaling step included. 
+Unlike Linear Regression, Random Forest Classifier donot rely on the linear relationship of feature and output variable values, and therefore there was little to no improvement in the performance of this model with a scaling step included.
 
 ## Feature Selection and evaluation of Random Forest Classifier
 ![FS-RFC](https://github.com/fbrowther/Supervised_ML_Models-Predicting_Credit_Risk/blob/main/Screenshots/Feature%20Selection%20-%20scores.png)
 
 While developing an accurate ML model, it is essential that features that are included in the model, contribute to the overall performance of the model and its accurate prediction. 
 
-Eventhough, these model (demonstarted above) have already performed so well with an accuracy score nearing a perfect score; further refinement of this model could potentially improve Precision, Recall, f1-scores. With this in mind, feature imortance was attempted using SelectFromModel. Among the input features, interest_rate, borrower_income, and debt_to_income were identified to contribute to the overall predictability of the model. 
+Eventhough, these model (demonstarted above) have already performed well with an accuracy score nearly perfect; any further refinement of this model could potentially improve Precision, Recall, f1-scores. With this in mind, feature imortance was attempted using SelectFromModel. Among the input features, interest_rate, borrower_income, and debt_to_income were identified to contribute the most to the overall predictability of the model.
 
-Further refinement of the model was carried out using these three selected features. This didnot improve the score of a already well performing model. However, this refinement process is important when a model is faced with hundreds of features, many of which do not contribute to the overall performance and generate noise for the model.  
+Further refinement of the model was carried out using these three selected features. This didnot improve the score of a already well performing model. However, this refinement process is of utmost importance when a model is faced with hundreds of features, many of which do not contribute to the overall performance and generate only noise for the model.  
 
 ## Hyperparameter Tuning and comparison between the two models (code in Bonus file)
 ![LR v/s RFC](https://github.com/fbrowther/Supervised_ML_Models-Predicting_Credit_Risk/blob/main/Screenshots/Hyperparameter.png)
