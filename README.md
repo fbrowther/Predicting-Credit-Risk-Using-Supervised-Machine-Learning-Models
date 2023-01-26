@@ -9,12 +9,12 @@ The archieved dataset had information on loan_size,	interest_rate,	borrower_inco
 ## Aims and Objective -
 Employing Logistic Regression model and Random Forest Classifier, the loan_status of the appliaction will be predicted. 
 
-  (1) The performance of the developed models will be compared with an preprocessing step included for both Logistic Regression model & Random Forest
-      Classifier.
+      (1) The performance of the developed models will be compared with an preprocessing step included for both Logistic Regression model & 
+      Random Forest Classifier.
       
-  (2) Main performance metrics of ML models such as Recall, Precision, Accuracy, and f1-score will be determined and compared.
+      (2) Main performance metrics of ML models such as Recall, Precision, Accuracy, and f1-score will be determined and compared.
   
-  (3) Any fine tuning in the performace of the models will be performed with Feature Selection and Hyperparameter tuning step.
+      (3) Any fine tuning in the performace of the models will be performed with Feature Selection and Hyperparameter tuning step.
   
 ## Specific Libraries and modules employed - 
   (1) Scikit-Learn - 
