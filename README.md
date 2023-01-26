@@ -37,6 +37,7 @@ Employing Logistic Regression model and Random Forest Classifier, the loan_statu
 
 
 Linear Regression already performed with a accuracy scores of 0.9921. However, with the scaling of the data it improved even further to 0.9941. If this was a model with a score of say., 0.7823, then there is a high likelihood of this score increasing further, with a preprocessing step (MinMaxScaler or StandardScaler) included.
+This increase was also reflected in further improvement of Recall and f1-scores.
 
 ## Random Forest Classifier with or without Preprocessing -
 ![RFC](https://github.com/fbrowther/Supervised_ML_Models-Predicting_Credit_Risk/blob/main/Screenshots/RFC.png)
