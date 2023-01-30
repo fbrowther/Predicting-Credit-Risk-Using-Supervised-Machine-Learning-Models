@@ -91,4 +91,10 @@ If this was a model with an accuracy score much lower than 0.99, then there is a
             
 ## Which Model to use for future predictions? -
 For deployment purposes, it is recommended that Linear Regression (with Preprocesing Step and/or Hyperparameter Tuning) be chosen. This model generated the highest possible score in Recall, Accuracy, f1 Score and Precision. 
+Kirasich et al., found that when the variance in the explanatory and noise variables increases in a dataset, logistic regression consistently performs better with a higher overall accuracy compared to random forest (Kirasich, 2018). 
+The deployable ML model has to be robust enough in handling any variations (in both explanatory and noise variables) in the new incoming data and hence Logistic Regression will prove more robust in hadling such changes. In addition, the dataset employed in this project also is numerical and hence Logistic Regrression will do better than Random Forest classifier. RFC can do better with categorial data as it relies on  it 
+
+
+
+## References
 
