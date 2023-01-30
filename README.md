@@ -88,3 +88,7 @@ If this was a model with an accuracy score much lower than 0.99, then there is a
         (3) In order to rebalance the class districbution in the dataset, random resampling technique can be used. 
             The models are already performing well and therefore random resampling was not attempted. 
             However, closer monitoring of the model performance on newer data should be used to assess if random resampling is necessary.
+            
+## Predictions:
+
+The written analysis did not contain a prediction on which model will perform better. 
