@@ -92,3 +92,18 @@ If this was a model with an accuracy score much lower than 0.99, then there is a
 ## Predictions:
 
 The written analysis did not contain a prediction on which model will perform better. 
+In general, logistic regression performs better when the number of noise variables is less than or equal to the number of explanatory variables and random forest has a higher true and false positive rate as the number of explanatory variables increases in a dataset.
+
+In this article, we discuss Logistic Regression and Random Forest Classifier.
+
+Logistic Regression is used widely for solving Industry scale problems as it’s easy to implement and it generally doesn't give you discrete output and gives Probability associated with each output. The logistic regression algorithm is robust to a small noise in the data and is not particularly affected by small cases of multi-collinearity. We can use many metrics for evaluation but let’s consider Recall for True Positive and F1 score (Harmonic Mean for Recall and Precision)
+
+Random Forest Classifier is more of Accuracy focused algorithm and is best till it’s used with proper fit, else it gets overfat quickly. Random selection in individual decision trees of RFC can capture more complex feature patterns to provide the best accuracy. RFC can also tell us how much each feature contributes to class prediction using Feature Importance and tree graphs for better interpretation.
+
+Overall saying Random Forest Classifier performs better with more categorical data than numeric and logistic regression is a little confusing when comes to categorical data So. If the dataset has more Categorical data and consists of outliers it is better to use Random Forest Classifier.
+
+According to Google:
+
+Logistic regression performs better when the number of noise variables is less than or equal to the number of explanatory variables and the random forest has a higher true and false positive rate as the number of explanatory variables increases in a dataset.
+
+
