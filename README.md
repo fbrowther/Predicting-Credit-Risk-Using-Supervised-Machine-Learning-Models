@@ -115,3 +115,7 @@ If this was a model with an accuracy score much lower than 0.99, then there is a
 
 ## References
 
+(1) Kirasich, Kaitlin; Smith, Trace; and Sadler, Bivin (2018) "Random Forest vs Logistic Regression: Binary Classification for Heterogeneous Datasets," SMU Data Science Review: Vol. 1: No. 3, Article 9.
+
+Available at: https://scholar.smu.edu/datasciencereview/vol1/iss3/9
+
