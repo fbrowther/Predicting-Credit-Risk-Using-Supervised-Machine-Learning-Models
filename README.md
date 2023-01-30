@@ -90,5 +90,5 @@ If this was a model with an accuracy score much lower than 0.99, then there is a
             However, closer monitoring of the model performance on newer data should be used to assess if random resampling is necessary.
             
 ## Which Model to use for future predictions? -
-For deployment purposes, It is recommended that Linear Regression (with Preprocesing Step) be chosen. 
+For deployment purposes, It is recommended that Linear Regression (with Preprocesing Step and Hyperparameter Tuning) be chosen. This model generated 
 
