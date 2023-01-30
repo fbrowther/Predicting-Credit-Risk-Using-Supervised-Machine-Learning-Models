@@ -76,8 +76,6 @@ If this was a model with an accuracy score much lower than 0.99, then there is a
         (3) These models were able to predict credit risk of current loans with 0.99 accuracy.
             
 
-![Credit](https://github.com/fbrowther/Supervised_ML_Models-Predicting_Credit_Risk/blob/main/Screenshots/Credit.jpeg)
-
 ## Limitations and Discussion -
 
        (1) The dataset used for this modeling was imbalanced (the ratio being 1:30; 2500 for Approved to 75036 Rejected). 
@@ -113,6 +111,7 @@ If this was a model with an accuracy score much lower than 0.99, then there is a
           Eventhough RFC performed really well in this datset, it will be reserved for a more suitable use case scenario and will not be deployed, as a  
           part of this project. 
 
+![Credit](https://github.com/fbrowther/Supervised_ML_Models-Predicting_Credit_Risk/blob/main/Screenshots/Credit.jpeg)
 
 ## References
 
