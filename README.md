@@ -66,7 +66,7 @@ Having recognized that there is still room for improvement with Precision, Recal
 
 If this was a model with an accuracy score much lower than 0.99, then there is a high likelihood of this tuning step improving even the accuracy score.
 
-## Summary and conclusions -
+## Summary and conclusions-
 
         (1) Linear regression model with Preprocessing steps (StandardScaler, and GridsearchCV) and Random Forest Classifier 
             with Feature Selection were the top performing models that were developed, as a part of this Machine Learning Project.
@@ -80,20 +80,36 @@ If this was a model with an accuracy score much lower than 0.99, then there is a
 
 ## Limitations and Discussion -
 
-        (1) The dataset used for this modeling was imbalanced (the ratio being 1:30; 2500 for Approved to 75036 Rejected). 
+       (1) The dataset used for this modeling was imbalanced (the ratio being 1:30; 2500 for Approved to 75036 Rejected). 
             Hence, the distribution of output classes was not equal. 
     
-        (2) When working with an imbalanced classification problem such as this one, the minority class is typically of most importance. 
+       (2) When working with an imbalanced classification problem such as this one, the minority class is typically of most importance. 
 
-        (3) In order to rebalance the class districbution in the dataset, random resampling technique can be used. 
+       (3) In order to rebalance the class districbution in the dataset, random resampling technique can be used. 
             The models are already performing well and therefore random resampling was not attempted. 
             However, closer monitoring of the model performance on newer data should be used to assess if random resampling is necessary.
             
-## Which Model to use for future predictions? -
-For deployment purposes, it is recommended that Linear Regression (with Preprocesing Step and/or Hyperparameter Tuning) be chosen. This model generated the highest possible score in Recall, Accuracy, f1 Score and Precision. 
-Kirasich et al., found that when the variance in the explanatory and noise variables increases in a dataset, logistic regression consistently performs better with a higher overall accuracy compared to random forest (Kirasich, 2018). 
-The deployable ML model has to be robust enough in handling any variations (in both explanatory and noise variables) in the new incoming data and hence Logistic Regression will prove more robust in hadling such changes. In addition, the dataset employed in this project also is numerical and hence Logistic Regrression will do better than Random Forest classifier. RFC can do better with categorial data as it relies on  it 
 
+## Which Model to use for future predictions? -
+
+      (1) For deployment purposes, it is recommended that Linear Regression (with Preprocesing Step and/or Hyperparameter Tuning incorportated) be chosen.
+      
+      (2) This model generated the highest possible scores for Recall, Accuracy, f1 Score and Precision just after Standard Scaling. 
+          This score was as good as that obtained after hyperparameter tuning. 
+          
+      (3) Kirasich et al., found that when the variance in the explanatory and noise variables increases in a dataset, logistic regression consistently
+          performs better with a higher overall accuracy compared to random forest (Kirasich, 2018). 
+          
+      (4) The deployable ML model needs to be robust enough in handling any variations (in both explanatory and noise variables) in the new incoming data
+          and hence Logistic Regression will prove more robust in handling such changes. 
+          
+      (5) The dataset employed in this project was 100% numerical and hence Logistic Regression will do better in this case oevrall as long as new 
+          incoming data are checked for outliers frequently before feeding into the model. 
+          
+      (6) Random Forest classifier is also a great model that can perform relatively well with dataset containing both categorical and numerical data.  
+          With RFCs there is a problem of high false positive rate (which can result in low Precision! in imbalanced dataset such as this one). 
+          Eventhough RFC performed really well in this datset, it will be reserved for a more suitable use case senario and not deployed, as a part of 
+          this project. 
 
 
 ## References
