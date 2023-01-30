@@ -57,7 +57,7 @@ While developing a ML model, it is essential that features that are included in 
 
 Eventhough, these model (demonstarted above) have already performed well with an accuracy score nearly perfect; any further refinement of this model could potentially improve Precision, Recall, f1-scores. With this in mind, feature imortance was attempted using SelectFromModel. Among the input features, interest_rate, borrower_income, and debt_to_income were identified to contribute the most to the overall predictability of the model.
 
-Further refinement of the model was carried out using these three selected features. This didnot improve the score of an already well performing model. However, this refinement process is of utmost importance when a model is faced with hundreds of features, many of which do not contribute to the overall performance and generate only noise for the model.  
+Further refinement of the model was carried out using these three selected features. This didnot improve the score of an already well performing model. However, this refinement process is of utmost importance when a model is faced with hundreds of features, many of which do not contribute to the overall performance but may generate noise for the model's performance.  
 
 ## Hyperparameter Tuning and comparison between the two models (code in Bonus file)
 ![LR v/s RFC](https://github.com/fbrowther/Supervised_ML_Models-Predicting_Credit_Risk/blob/main/Screenshots/Hyperparameter.png)
@@ -83,7 +83,7 @@ If this was a model with an accuracy score much lower than 0.99, then there is a
         (1) The dataset used for this modeling was imbalanced (the ratio being 1:30; 2500 for Approved to 75036 Rejected). 
             Hence, the distribution of output classes was not equal. 
     
-        (2) When working with an imbalanced classification problem such as this one, the minority class is typically of the most interest. 
+        (2) When working with an imbalanced classification problem such as this one, the minority class is typically of most importance. 
 
         (3) In order to rebalance the class districbution in the dataset, random resampling technique can be used. 
             The models are already performing well and therefore random resampling was not attempted. 
