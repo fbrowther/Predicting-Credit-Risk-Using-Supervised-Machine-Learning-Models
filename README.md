@@ -103,12 +103,12 @@ If this was a model with an accuracy score much lower than 0.99, then there is a
       (4) The deployable ML model needs to be robust enough in handling any variations (in both explanatory and noise variables) in the new incoming data
           and hence Logistic Regression will prove more robust in handling such changes. 
           
-      (5) The dataset employed in this project was 100% numerical and hence Logistic Regression will do better in this case oevrall as long as new 
-          incoming data are checked for outliers frequently before feeding into the model. 
+      (5) The dataset employed in this project was 100% numerical and hence Logistic Regression will do better in this case overall as long as new 
+          incoming data are checked for outliers before feeding into the model. 
           
       (6) Random Forest classifier is also a great model that can perform relatively well with dataset containing both categorical and numerical data. 
           RFC can also do very well with datasets with complex data structures resulting in complex desision boundary.
-          With RFCs there is a problem of high false positive rate (which can result in low Precision! in imbalanced dataset such as this one). 
+          With RFCs there is a problem of high false positive rate (which can result in low Precision! in imbalanced dataset similar to this one). 
           Eventhough RFC performed really well in this datset, it will be reserved for a more suitable use case senario and will not be deployed, as a  
           part of this project. 
 
