@@ -32,7 +32,7 @@ The loan_status of the applications will be predicted employing both Logistic Re
       
       (f) Feature selction - SelectFromModel
 
-## Project Performance -
+## Model Performance(s) -
 ## Linear Regression with or without Preprocessing -
 ![LR](https://github.com/fbrowther/Supervised_ML_Models-Predicting_Credit_Risk/blob/main/Screenshots/new_LR.png)
 
